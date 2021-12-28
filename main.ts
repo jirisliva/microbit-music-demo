@@ -1,4 +1,5 @@
 function ovecka () {
+    music.setTempo(60)
     music.playTone(262, music.beat(BeatFraction.Quarter))
     music.rest(music.beat(BeatFraction.Eighth))
     music.playTone(294, music.beat(BeatFraction.Quarter))
